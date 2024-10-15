@@ -3,7 +3,7 @@
 .nav {
 	background-color: white;
 	color: black;
-	font-family: 'Arial', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	position: fixed;
 	z-index: 100;
 	width: 1000px;
@@ -44,7 +44,7 @@
 
 #degree {
 	font-size: 15px;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .nav_li {
@@ -81,7 +81,7 @@ a {
 	padding: 10px;
 	margin-left: 25px ;
 	font-family: "Montserrat";
-	font-weight:400;
+	font-weight:500;
 }
 
 .news {
@@ -89,7 +89,7 @@ a {
 	padding: 10px;
 	margin-left: 30px ;
 	font-family: "Montserrat";
-	font-weight:400;
+	font-weight:500;
 }
 
 .profile_pic_container {
@@ -131,7 +131,7 @@ a {
 	margin: 15px;
 	font-size: 15px;
 	font-family: "Montserrat";
-	font-weight: 300;
+	font-weight: 400;
 	border-radius: 3px;
 }
 
@@ -142,7 +142,7 @@ a {
 	margin: 15px;
 	font-size: 18px;
 	font-family: "Montserrat";
-	font-weight: 300;
+	font-weight: 400;
 	border-radius: 3px;
 }
 
@@ -153,7 +153,7 @@ h1 {
 	padding: 10px 10px 10px 30px;
 	font-size: 50px;
 	font-family: "Montserrat";
-	font-weight:300;
+	font-weight:400;
 	margin: 15px;
 }
 
@@ -165,7 +165,7 @@ h1 {
 	margin: 15px;
 	font-size: 15px;
 	font-family: "Montserrat";
-	font-weight:300;
+	font-weight:500;
 	width: fit-content;
 }
 

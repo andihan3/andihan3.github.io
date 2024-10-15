@@ -1,3 +1,1 @@
-# annaebair.github.io
-
-Access my personal website at https://annaebair.github.io
+# Personal homepage https://andihan3.github.io

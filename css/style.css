@@ -1,27 +1,27 @@
 /* Navigation bar */
 
-/* .nav {
+.nav {
 	background-color: white;
 	color: black;
 	font-family: 'Montserrat', sans-serif;
 	position: fixed;
 	z-index: 100;
 	width: 1000px;
-} */
+}
 
-.nav {
+/* .nav {
   background-color: white;
   color: black;
   font-family: 'Montserrat', sans-serif;
   position: fixed;
   z-index: 100;
   width: 1000px;
-  left: 50%; /* Center the navigation horizontally */
-  transform: translateX(-50%); /* Adjust for the element’s width */
+  left: 50%; 
+  transform: translateX(-50%); /
   display: flex;
-  justify-content: center; /* Centers content horizontally */
-  align-items: center; /* Centers content vertically */
-}
+  justify-content: center; 
+  align-items: center; 
+} */
 
 
 .navbar_height {

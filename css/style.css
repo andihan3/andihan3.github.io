@@ -1,12 +1,26 @@
 /* Navigation bar */
 
-.nav {
+/* .nav {
 	background-color: white;
 	color: black;
 	font-family: 'Montserrat', sans-serif;
 	position: fixed;
 	z-index: 100;
 	width: 1000px;
+} */
+
+.nav {
+  background-color: white;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  z-index: 100;
+  width: 1000px;
+  left: 50%; /* Center the navigation horizontally */
+  transform: translateX(-50%); /* Adjust for the element’s width */
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
 }
 
 

@@ -7,8 +7,6 @@
 	position: fixed;
 	z-index: 100;
 	width: 1000px;
-	left: 50%; /* Positions the left edge of the nav div at the center */
-  	transform: translateX(-50%);
 }
 
 

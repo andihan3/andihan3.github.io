@@ -186,6 +186,19 @@ h1 {
 	width: fit-content;
 }
 
+
+.custom-list {
+	  list-style-type: square;   /* Changes the bullet style */
+/* 	  margin-left: 10px;         /* Adds space from the left */ 
+	  padding: 10px;             /* Adds space inside the list */
+	  margin: 15px;
+	  font-size: 15px;
+	  font-family: "Montserrat";
+	  font-weight: 500;
+	  border-radius: 3px;    /* Adds a border */
+}
+
+
 @media (max-width:890px) {
 
   .nav {

@@ -207,8 +207,8 @@ h1 {
 }
 
 .map-container {
-  width: 100%;    /* Allow the map to take full width initially */
-  height: auto;   /* Automatically adjust height */
+  width: 80%;    /* Allow the map to take full width initially */
+  height: 50%;   /* Automatically adjust height */
   overflow: visible;  /* Make sure content is not hidden */
 }
 

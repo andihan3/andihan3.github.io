@@ -198,8 +198,17 @@ h1 {
 	  border-radius: 3px;    /* Adds a border */
 }
 
+.map-wrapper {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically (optional) */
+  height: 400px;            /* Adjust height as needed */
+  margin-top: 20px;         /* Space between the line and map */
+}
+
+
 .clustrmaps-container {
-  width: 200px;   /* Set desired width */
+  width: 300px;   /* Set desired width */
   height: 200px;  /* Set desired height */
   overflow: hidden; /* Hide overflow if the content is larger */
 }

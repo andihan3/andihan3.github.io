@@ -218,11 +218,13 @@ div#footer {
 
 div#footer a {
 	color: #80a0b0;
+	font-family: "Montserrat";
 }
 
 div#footer-text {
 	float: left;
 	padding-bottom: 8px;
+	font-family: "Montserrat";
 }
 
 

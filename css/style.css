@@ -201,16 +201,17 @@ h1 {
 .map-wrapper {
   display: flex;
   justify-content: center;  /* Center horizontally */
-  align-items: center;      /* Center vertically (optional) */
-  margin-top: 20px;         /* Space between the line and map */
-  z-index: 200;             /* Ensure it's above other elements */
+  align-items: center;      /* Center vertically */
+  margin-top: 20px;         /* Adds some space at the top */
+  z-index: 200;             /* Ensures it's above other elements */
 }
 
-.clustrmaps-container {
-  width: 100%;    /* Temporarily allow full width */
-  height: auto;   /* Temporarily allow full height */
-  overflow: visible; /* Make sure content isn't cut off */
+.map-container {
+  width: 100%;    /* Allow the map to take full width initially */
+  height: auto;   /* Automatically adjust height */
+  overflow: visible;  /* Make sure content is not hidden */
 }
+
 
 @media (max-width:890px) {
 

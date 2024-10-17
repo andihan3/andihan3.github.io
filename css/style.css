@@ -189,6 +189,17 @@ a {
 	border-radius: 3px;
 }
 
+.medbold-text {
+	color: black;
+	display: block;
+	padding: 10px 0px 0px 30px;
+	margin: 10px;
+	font-size: 20px;
+	font-family: "Montserrat";
+	font-weight: 700;
+	border-radius: 3px;
+}
+
 
 h1 {
 	color: black;

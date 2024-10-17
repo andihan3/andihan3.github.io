@@ -28,7 +28,7 @@
   height: 1px;                   /* Sets the thickness of the line */
   background-color: lightgray;   /* Sets the line color to light gray */
 /*   margin: 20px auto;             /* Centers the line and adds vertical spacing */ 
-  margin-left: 35px;	
+  margin-left: 30px;	
   margin-bottom: 20px;
   width:100%;                    /* Sets the line width */
 }

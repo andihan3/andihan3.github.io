@@ -198,6 +198,12 @@ h1 {
 	  border-radius: 3px;    /* Adds a border */
 }
 
+.clustrmaps-container {
+  width: 200px;   /* Set desired width */
+  height: 200px;  /* Set desired height */
+  overflow: hidden; /* Hide overflow if the content is larger */
+}
+
 
 @media (max-width:890px) {
 

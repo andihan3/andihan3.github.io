@@ -216,12 +216,13 @@ h1 {
 
 
 div#footer {
+	width: 90%;             /* Set width less than 100% */
+    	margin: 0 auto;         /* Center the footer */
 	font-size: small;
 	font-family: "Montserrat";
 	border-top: 1px solid #c0c0c0;
 	padding-top: 0.1em;
 	margin-top: 4.0em;
-	margin-left: 50px;
 	color: #c0c0c0;
 }
 

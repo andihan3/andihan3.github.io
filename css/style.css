@@ -23,6 +23,14 @@
   align-items: center; 
 } */
 
+.separator-line {
+  border: none;                  /* Removes default border */
+  height: 1px;                   /* Sets the thickness of the line */
+  background-color: lightgray;   /* Sets the line color to light gray */
+  margin: 20px auto;             /* Centers the line and adds vertical spacing */
+  width: 80%;                    /* Sets the line width */
+}
+
 
 .navbar_height {
 	height: 60px;

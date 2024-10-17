@@ -167,6 +167,17 @@ a {
 	border-radius: 3px;
 }
 
+.smsm-text {
+	color: black;
+	display: block;
+	padding: 5px 0px 0px 30px;
+	margin: 10px;
+	font-size: 15px;
+	font-family: "Montserrat";
+	font-weight: 500;
+	border-radius: 3px;
+}
+
 .med-text {
 	color: black;
 	display: block;

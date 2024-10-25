@@ -138,8 +138,11 @@ a {
 }
 
 .im_style {
-	width:300px;
-	margin-left: 35px;
+	 width: 300px;
+	    height: 300px; /* Ensures the image is a square */
+	    margin-left: 35px;
+	    border-radius: 50%; /* Makes the image circular */
+	    object-fit: cover; /* Ensures the image fills the circular frame without stretching */
 }
 
 

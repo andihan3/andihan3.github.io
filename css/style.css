@@ -122,11 +122,19 @@ a {
 	font-weight:600;
 }
 
-.profile_pic_container {
+/* .profile_pic_container {
 	width: 100%;
 	margin-top: 58px;
 	display: inline-block;
 	font-family: "Montserrat";
+} */
+
+.profile_pic_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  /* Centers the container itself */
+    margin-top: 58px;
 }
 
 #profile_pic {
@@ -137,11 +145,16 @@ a {
 	display: inline-block;
 }
 
-.im_style {
+/* .im_style {
 	 width: 300px;
 	    margin-left: 35px;
+} */
+.im_style {
+    max-width: 150px;   /* Adjust this size as needed */
+    height: auto;       /* Maintains aspect ratio */
+    margin: 0 auto;     /* Centers the image within its container */
+    border-radius: 50%; /* Makes the image circular, optional */
 }
-
 
 .bio {
 	display: inline-block;

@@ -129,7 +129,6 @@ a {
 	font-family: "Montserrat";
 }
 
-
 #profile_pic {
 	margin-left:25px;
 	margin-right: 15px;
@@ -138,19 +137,16 @@ a {
 	display: inline-block;
 }
 
-
-
 .im_style {
 	 width: 300px;
 	    margin-left: 35px;
 }
 
+
 .bio {
 	display: inline-block;
 	vertical-align: middle;
 }
-
-
 
 
 .name {

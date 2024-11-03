@@ -150,7 +150,7 @@ a {
 	    margin-left: 35px;
 } */
 .im_style {
-    max-width: 150px;   /* Adjust this size as needed */
+    max-width: 300px;   /* Adjust this size as needed */
     height: auto;       /* Maintains aspect ratio */
     margin: 0 auto;     /* Centers the image within its container */
     border-radius: 50%; /* Makes the image circular, optional */

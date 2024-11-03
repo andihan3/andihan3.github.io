@@ -129,13 +129,6 @@ a {
 	font-family: "Montserrat";
 } */
 
-.profile_pic_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;  /* Centers the container itself */
-    margin-top: 58px;
-}
 
 /* #profile_pic {
 	margin-left:25px;
@@ -145,25 +138,42 @@ a {
 	display: inline-block;
 } */
 
-#profile_pic {
-    flex-shrink: 0;          /* Prevents the image from shrinking */
-    margin: 0 20px 0 0;      /* Adds space between the image and text */
-}
+
 
 /* .im_style {
 	 width: 300px;
 	    margin-left: 35px;
 } */
-.im_style {
-    max-width: 300px;   /* Adjust this size as needed */
-    height: auto;       /* Maintains aspect ratio */
-    margin: 0 auto;     /* Centers the image within its container */
-    border-radius: 50%; /* Makes the image circular, optional */
-}
 
-.bio {
+/* .bio {
 	display: inline-block;
 	vertical-align: middle;
+} */
+
+.profile_pic_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 58px;
+}
+
+#profile_pic {
+    width: 150px;       /* Adjust this as needed for size */
+    margin-right: 20px; /* Space between image and bio text */
+    flex-shrink: 0;     /* Prevents image from shrinking */
+}
+
+.im_style {
+    width: 100%;        /* Ensures image fits within #profile_pic */
+    height: auto;
+    border-radius: 50%; /* Makes image circular, optional */
+}
+
+
+.bio {
+    max-width: 70%;     /* Ensures bio text does not overflow */
+    text-align: left;   /* Aligns text to the left */
 }
 
 

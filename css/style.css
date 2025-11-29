@@ -311,3 +311,20 @@ div#footer-text {
 	}
 
 }
+
+
+
+.news-box {
+  max-height: 260px;   /* pick the height you like (px, rem, or vh) */
+  overflow-y: auto;    /* vertical scrollbar when content exceeds height */
+  padding-right: 0.5rem; /* small padding so text doesn't sit under scrollbar */
+}
+
+/* optional: make scrollbar a bit nicer in WebKit browsers */
+.news-box::-webkit-scrollbar {
+  width: 6px;
+}
+.news-box::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
